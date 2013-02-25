@@ -1,6 +1,5 @@
 /* 
     Document   : StyleTemplate
-    Created on : Feb 4, 2013, 8:55:25 PM
     Author     : josephtinsley
     Description:
     My Goto CSS style sheet I use to jump start my web development projects.
@@ -16,6 +15,10 @@ html,body {
     padding:0;
 }
 
+
+h1,h2,h3,h4,h5,h6{ margin:0;padding:0; }
+
+
 .font9 { font-size:9px;  }
 .font10{ font-size:10px; }
 .font12{ font-size:12px; }
@@ -27,13 +30,15 @@ html,body {
 .font24{ font-size:24px; }
 .font26{ font-size:26px; }
 
+
+.bold   { font-weight:bold; }
+.normal { font-style:normal;}
+.italics{ font-style:italic;}
+
+
 .right{ float:right;}
 .left { float:left; }
 .clear{ clear:both; }
-
-.bold   { font-weight:600;  }
-.normal { font-weight:400;  }
-.italics{ font-style:italic;}
 
 
 .curve-border3 {-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;}
@@ -43,5 +48,6 @@ html,body {
 .curve-border7 {-moz-border-radius:7px;-webkit-border-radius:7px;-khtml-border-radius:7px;border-radius:7px;}
 .curve-border8 {-moz-border-radius:8px;-webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;}
 
-.submit-button       {border:1px solid #008ED3;background:#008ED3;color:#FFF;text-align: center;font-size:1.1em;cursor:pointer;font-weight:400;font-family:Helvetica, Arial, sans-serif;margin:10px 0 20px;padding:5px 10px;}
-.submit-button:hover {border:1px solid #FF6EC7;background:#FF6EC7;color:#FFF;text-align: center;font-size:1.1em;cursor:pointer;font-weight:400;font-family:Helvetica, Arial, sans-serif;margin:10px 0 20px;padding:5px 10px;}
+
+.submit-button       {border:1px solid #008ED3;background:#008ED3;color:#FFF;text-align: center;font-size:1.1em;cursor:pointer;font-weight:400;margin:10px 0 20px;padding:5px 10px;}
+.submit-button:hover {border:1px solid #FF6EC7;background:#FF6EC7;color:#FFF;text-align: center;font-size:1.1em;cursor:pointer;font-weight:400;margin:10px 0 20px;padding:5px 10px;}
